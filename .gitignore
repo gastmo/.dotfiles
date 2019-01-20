@@ -1,0 +1,38 @@
+# exclude history/log files
+.*history
+.*log
+
+# specific exclusions
+.ArchLabs*/**
+.Xauthority
+.cache/**
+.config/rclone/**
+.dotfiles
+.esd_auth
+.icons/**
+.lesshst
+.links/**
+.local/**
+.mozilla/**
+.nnncp
+.screenlayout/**
+.task/**
+.thumbnails/**
+.viminfo
+.w3m/history
+.xsession*
+.zcompdump
+.zdirs
+.zim/**
+
+# specific inclusions
+
+# home directories to ignore
+Configuration/**
+Desktop/**
+Documents/**
+Downloads/**
+Pictures/**
+Videos/**
+Working/**
+bin/**

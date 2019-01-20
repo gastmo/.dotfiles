@@ -1,0 +1,12 @@
+interface = wlp3s0
+cisco_mac = off
+sort_order = chan/sig
+sort_ascending = on
+stat_updates = 1000
+lhist_slot_size = 4
+meter_smoothness = 0
+info_updates = 10
+override_auto_scale = off
+lo_threshold_action = disabled
+hi_threshold_action = disabled
+startup_screen = info screen
