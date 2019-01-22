@@ -1,6 +1,13 @@
 # exclude history/log files
 .*history
 .*log
+.config/**/history
+.config/**/closed
+.config/**/command
+.config/**/cookies.db
+.config/**/search
+.config/**/queue
+.config/**/sessions/
 
 # specific exclusions
 .ArchLabs*/**

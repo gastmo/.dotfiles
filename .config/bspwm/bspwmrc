@@ -36,7 +36,8 @@ bspc config pointer_action1 move
 bspc config pointer_action2 resize_side
 bspc config pointer_action3 resize_corner
 
-bspc rule -a thunar desktop='^3' state=floating follow=on
+bspc rule -a Thunar desktop='^3' state=floating follow=on
 bspc rule -a firefox desktop='^4'
 bspc rule -a Void_Exit_Session state=floating layer=above
 bspc rule -a Exit_Session state=floating layer=above
+bspc rule -a skippy-xd state=floating layer=above
