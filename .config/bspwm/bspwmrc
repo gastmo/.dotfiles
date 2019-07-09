@@ -12,11 +12,11 @@ al-compositor --start &
 # panel
 sleep 1; al-polybar-session &
 
-# Set some bsp specific stuff
-bspc monitor DP1 -d I II III IV V VI VII VIII IX X 
-# bspc monitor LVDS1 -d I II III IV 
-# bspc monitor VGA1  -d V VI VII VIII IX X
-# bspc monitor DP1  -d V VI VII VIII IX X
+# monitors and desktops
+for mon in `xrandr | grep " connected" | cut -f 1 -d ' '`; do
+	echo $mon " found"
+    bspc monitor $mon -d I II III IV V VI VII VIII IX X
+done
 
 bspc config border_width 3
 bspc config window_gap 12
@@ -27,11 +27,10 @@ bspc config left_padding 0
 
 bspc config split_ratio 0.5
 bspc config borderless_monocle false
-bspc config gapless_monocle true
-bspc config paddingless_monocle true
+bspc config gapless_monocle false 
 
 bspc config pointer_modifier mod1
-bspc config click_to_focus true
+bspc config click_to_focus button1
 bspc config pointer_action1 move
 bspc config pointer_action2 resize_side
 bspc config pointer_action3 resize_corner

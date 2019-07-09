@@ -17,7 +17,7 @@ export DISABLE_FILE_OPEN_ON_NAV=1
 
 # ranger variables
 
-export RANGER_LOAD_DEFAULT_RC="FALSE"
+export RANGER_LOAD_DEFAULT_RC="TRUE"
 
 # set CapsLock to Ctrl & Escape, and Shift_L + Shift_R to CapsLock
 # check XKB options with:

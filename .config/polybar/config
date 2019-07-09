@@ -48,5 +48,9 @@ inherit = bar/master
 monitor =
 
 modules-left   = jgmenu bspwm menu
-modules-center = clock
-modules-right  = pkg memory temperature coreuse network volume
+modules-center = window_switch clock
+modules-right  = battery pkg memory temperature coreuse network volume
+
+border-bottom-size = 0
+underline-size  = 3
+
