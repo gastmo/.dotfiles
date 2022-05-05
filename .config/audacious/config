@@ -1,0 +1,30 @@
+
+[alsa]
+mixer-element=Master
+
+[audgui]
+about_win=506,268,582,357
+eq_preset_win=763,483,387,227
+filebrowser_win=461,207,672,480
+no_confirm_playlist_delete=TRUE
+queue_manager_win=653,351,288,192
+url_opener_win=605,352,384,190
+
+[gtkui]
+column_widths=10,275,175,10,175,175,10,100,36,10,275,275,275,10,275
+player_height=1146
+player_width=776
+player_x=806
+player_y=36
+
+[gtkui-layout]
+item0_name=Album Art
+item0_pos=-1,12,38,932,1140
+item1_name=Search Tool
+item1_pos=0,-1,-1,212,1070
+item_count=2
+
+[history]
+entry0=www.jango.com/music/Tindersticks
+entry1=https://www.jango.com/music/Tindersticks
+entry2=last.fm

@@ -1,0 +1,5 @@
+# set home-page=https://duckduckgo.com/
+set home-page=https://www.archlinux.org
+set download-path=~/Downloads
+set spell-checking=0
+

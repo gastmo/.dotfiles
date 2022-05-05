@@ -1,0 +1,5 @@
+# Tclsh configuration
+lappend auto_path /usr/local/lib/tcl
+
+#puts stderr "Initialising in [info script]. auto_path: $auto_path"
+
