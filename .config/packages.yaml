@@ -1,0 +1,92 @@
+# packages to install
+#
+dev:
+  jq yq
+  ddgr
+  fossil
+  glances
+  htop
+  sqlite sqlite-tcl
+  rclone
+  tcl tcllib tclx
+  tcltls
+  tk tklib tkimg tktable tktreectrl-git
+  tmux
+  zsh
+
+apps:
+  drakon-editor
+  ffmpeg
+  graphviz
+  hp15c
+  imagemagick
+  ledger
+  mpv
+  task tasksh
+
+vim:
+  gvim vimpager
+  vim-airline
+  vim-airline-themes
+  vim-ale
+  vim-align
+  vim-bufexplorer
+  vim-ctrlp
+  vim-easymotion
+  vim-fugitive
+  vim-indent-object
+  vim-nerdcommenter
+  vim-nerdtree
+  vim-pastie
+  vim-supertab
+  vim-surround
+  vim-syntastic
+  vim-tagbar
+  vim-vital
+  vim-colorsamplerpack
+  vim-guicolorscheme
+  vim-instant-markdown
+  vim-minibufexpl
+  vim-project
+  vim-taglist
+  vim-workspace
+
+vitools:
+  cmus
+  mdp
+  nnn
+  sxiv
+  termite
+  vimb tabbed
+  visidata
+  vit
+  w3m
+  xcape
+  zathura zathura-pdf-poppler zathura-ps
+
+useful:
+  cht.sh-git
+  cmatrix
+  conky
+  entr
+  gpp
+  grap
+  lowdown
+  mons
+  ueberzug
+  xdotool
+  zenity
+  csvkit
+  miller
+  q
+  unixodbc
+  xsv
+  nodejs npm coffeescript
+  jdk8-openjdk
+  plantuml
+  rhino
+  gtop
+  iftop
+  mtr
+  wavemon
+
